@@ -14,7 +14,7 @@ while row_index < src.count do
   end
   outer_results << smallest_integers
   row_index += 1
-end
+  end
 end
 
 
