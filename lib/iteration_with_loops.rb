@@ -8,10 +8,7 @@ while row_index < src.count do
   shortest_string_element = ""
   while element_index < src[row_index].count do
     if src[row_index][element_index].length < shortest_string_element.length
-      shortest_string_element = spice_rack[row_index][element_index]
-      
-      src[row_index][element_index][0] < smallest_numbers[0]
-      smallest_numbers << src[row_index][element_index]
+      shortest_string_element = src[row_index][element_index]
     end
     element_index += 1
   end
@@ -19,5 +16,6 @@ while row_index < src.count do
 end
 smallest_numbers
 end
+
 
 
